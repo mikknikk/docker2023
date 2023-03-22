@@ -1,0 +1,2 @@
+$ docker build 1.7 -t curler
+$ docker run -it curler
