@@ -6,4 +6,4 @@ RUN apt-get update && apt-get install -y curl
 
 COPY website.sh .
 
-CMD ./website.sh
+ENTRYPOINT ["./website.sh"]
