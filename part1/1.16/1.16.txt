@@ -1,0 +1,7 @@
+Keksinklikkaaja is a Cookie Clicker clone React app.
+
+The Dockerfile was deployed to fly.io using the fly launch command.
+
+Docker takes a Node image, copies the files, does some npm stuff, exposes the port 3000, and serves the game.
+
+The game is running at https://keksinklikkaaja.fly.dev/
