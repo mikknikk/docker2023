@@ -5,7 +5,7 @@ WORKDIR /usr/src/app
 COPY . .
 
 RUN npm install
-RUN REACT_APP_BACKEND_URL=http://localhost:8080 npm run build
+RUN REACT_APP_BACKEND_URL=http://localhost/api npm run build
 RUN npm install -g serve
 
 EXPOSE 5000

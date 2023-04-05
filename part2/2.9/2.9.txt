@@ -1,1 +1,7 @@
-I removed the localhost port from backend's Docker file and rebuilt.
+I made the following changes to the Dockerfiles and rebuilt.
+
+Backend Dockerfile:
+ENV REQUEST_ORIGIN=http://localhost:5000 -> ENV REQUEST_ORIGIN=http://localhost
+
+Backend Dockerfile:
+RUN REACT_APP_BACKEND_URL=http://localhost:8080 npm run build -> RUN REACT_APP_BACKEND_URL=http://localhost/api npm run build
