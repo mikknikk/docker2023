@@ -25,5 +25,3 @@ services:
         restart: unless-stopped
         environment:
           - POSTGRES_PASSWORD=salasana
-        volumes:
-          - ./database:/var/lib/postresql/data
