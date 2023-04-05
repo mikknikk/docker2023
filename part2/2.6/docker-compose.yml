@@ -9,6 +9,8 @@ services:
           - REDIS_HOST=redis
           - POSTGRES_HOST=db
           - POSTGRES_PASSWORD=salasana
+        depends_on:
+          - db
 
     frontend:
         image: frontend
