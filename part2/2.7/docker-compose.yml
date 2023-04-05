@@ -26,4 +26,5 @@ services:
         environment:
           - POSTGRES_PASSWORD=salasana
         volumes:
-          - ./database:/var/lib/postresql/data
+          - ./database:/var/lib/postgresql/data
+
