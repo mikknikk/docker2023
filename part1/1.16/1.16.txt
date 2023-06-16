@@ -5,3 +5,5 @@ The Dockerfile was deployed to fly.io using the fly launch command.
 Docker takes a Node image, copies the files, does some npm stuff, exposes the port 3000, and serves the game.
 
 The game is running at https://keksinklikkaaja.fly.dev/
+
+(The game was later converted into a simpler JavaScript app and also the Dockerfile was changed in exercises from part 3.)
